@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#C9CBAA",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingHorizontal": 15,
+      "paddingVertical": 15,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#4A4B4D",
+        "fontSize": 18,
+        "fontWeight": "400",
+      }
+    }
+  >
+    From 
+    <Text
+      style={
+        Object {
+          "color": "#B16421",
+        }
+      }
+    >
+      /Night
+    </Text>
+  </Text>
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#4C6447",
+        "borderRadius": 5,
+        "flexDirection": "row",
+        "opacity": 1,
+        "padding": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      EXPLORE 
+    </Text>
+    <Text />
+  </View>
+</View>
+`;

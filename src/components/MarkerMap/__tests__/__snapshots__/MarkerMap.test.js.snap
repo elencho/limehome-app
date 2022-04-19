@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<AIRMapMarker
+  coordinate={
+    Object {
+      "latitude": undefined,
+      "longitude": undefined,
+    }
+  }
+  onPress={[Function]}
+  stopPropagation={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "position": "absolute",
+      },
+      Object {
+        "alignItems": "center",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#4A4B4D",
+        "borderRadius": 5,
+        "opacity": 1,
+        "padding": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 18,
+        }
+      }
+    >
+      15€
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#4A4B4D",
+        "height": 10,
+        "marginTop": -5,
+        "transform": Array [
+          Object {
+            "rotate": "45deg",
+          },
+        ],
+        "width": 10,
+      }
+    }
+  />
+</AIRMapMarker>
+`;

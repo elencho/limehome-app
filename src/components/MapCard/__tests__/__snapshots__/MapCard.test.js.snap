@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignSelf": "center",
+      "backgroundColor": "#F7F1E9",
+      "borderRadius": 10,
+      "bottom": 5,
+      "elevation": 10,
+      "flexDirection": "row",
+      "marginTop": 40,
+      "opacity": 1,
+      "position": "absolute",
+      "shadowColor": "#ccc",
+      "shadowOffset": Object {
+        "height": 3,
+        "width": 0,
+      },
+      "shadowOpacity": 0.5,
+      "shadowRadius": 5,
+      "width": "90%",
+    }
+  }
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "height": 120,
+        "width": 120,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": 120,
+            "width": 120,
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "flex-end",
+          "backgroundColor": "#F7F1E9",
+          "borderRadius": 5,
+          "flexDirection": "row",
+          "margin": 10,
+          "padding": 3,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#4A4B4D",
+            "fontSize": 15,
+            "fontWeight": "400",
+          }
+        }
+      >
+         
+      </Text>
+      <Text />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 10,
+        "marginTop": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4A4B4D",
+          "fontSize": 20,
+          "fontWeight": "600",
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginTop": 10,
+        }
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Object {
+            "color": "#4A4B4D",
+            "fontSize": 16,
+            "fontWeight": "300",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#4A4B4D",
+          "height": 1,
+          "marginRight": 10,
+          "marginVertical": 10,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#4A4B4D",
+          "fontSize": 16,
+          "fontWeight": "300",
+        }
+      }
+    >
+      From 
+      <Text
+        style={
+          Object {
+            "color": "#B16421",
+            "fontSize": 16,
+            "fontWeight": "500",
+          }
+        }
+      />
+    </Text>
+  </View>
+</View>
+`;

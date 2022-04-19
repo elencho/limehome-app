@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "height": 600,
+    }
+  }
+>
+  <RCTScrollView
+    horizontal={true}
+    pagingEnabled={true}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
